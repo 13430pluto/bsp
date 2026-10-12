@@ -1,0 +1,12 @@
+name = "bus-stop-api"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "busdb"
+database_id = "여기에-D1-ID-붙여넣기"
+
+[vars]
+# 앱을 올린 GitHub Pages 주소 (끝에 / 없이)
+ALLOWED_ORIGIN = "https://내아이디.github.io"
