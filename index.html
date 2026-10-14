@@ -59,7 +59,7 @@ const MAX_DISTANCE_M = 80;      // 정류장 반경(미터). 위치 확인 사�
 const USE_GPS_CHECK = false;    // true 로 바꾸면 정류장 근처에서만 요청 가능
 
 const params = new URLSearchParams(location.search);
-const stationId = params.get("station") || "DEMO-001";
+const stationId = params.get("station") || "신도림 중학교";
 const $ = id => document.getElementById(id);
 let selected = null, requestId = null, stationInfo = null;
 
