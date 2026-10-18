@@ -3,7 +3,7 @@
 // 정류장 목록. QR의 ?station=값 과 일치해야 합니다.
 // cityCode / nodeId 는 공공데이터포털(TAGO) 정류장 정보에서 확인.
 const STATIONS = {
-  "DEMO-001": { name: "시청앞 정류장", lat: 37.5663, lng: 126.9779 },
+  "DEMO-001": { name: "신도림 중학교", lat: 37.5663, lng: 126.9779 },
   "12345":    { name: "예시 정류장",   lat: 37.5665, lng: 126.9780, cityCode: "11", nodeId: "SEL00000" },
 };
 
@@ -11,8 +11,8 @@ const TTL_SEC = 180;      // 요청 유지 시간(3분)
 const RATE_LIMIT = 5;     // 같은 IP가 1분에 보낼 수 있는 요청 수
 
 const DEMO_BUSES = [
-  { no: "143", eta: 2 }, { no: "401", eta: 5 },
-  { no: "9407", eta: 9 }, { no: "472", eta: 14 },
+  { no: "6512", eta: 2 }, { no: "5714", eta: 5 },
+  { no: "5615", eta: 9 }
 ];
 
 function cors(env) {
