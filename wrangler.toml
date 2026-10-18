@@ -5,8 +5,8 @@ compatibility_date = "2026-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "busdb"
-database_id = "여기에-D1-ID-붙여넣기"
+database_id = "3bd2b917-2538-4981-8e66-3ae0fc4692cb"
 
 [vars]
 # 앱을 올린 GitHub Pages 주소 (끝에 / 없이)
-ALLOWED_ORIGIN = "https://내아이디.github.io"
+ALLOWED_ORIGIN = "https://13430pluto.github.io"
